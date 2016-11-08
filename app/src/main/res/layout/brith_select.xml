@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+
+    >
+    <TextView
+        android:id="@+id/birth_select_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择"
+        android:textSize="15sp"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        />
+    <DatePicker
+        android:id="@+id/select_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        >
+    </DatePicker>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        >
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f5f5f5"
+            android:text="取消"
+            android:layout_gravity="right"
+            android:textColor="#477aac"
+            />
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f5f5f5"
+            android:text="确定"
+            android:layout_gravity="right"
+            android:textColor="#477aac"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
